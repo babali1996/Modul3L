@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Roboto;
+}
+
+.contanier{
+    width: 1152px;
+    height: 750px;
+}
+
+.box{
+    display: block;
+    width: 645px;
+    margin-top: 56px;
+}
+
+.block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head{
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 60px;
+}
+
+.upper img{
+    width: 89px;
+    height: 23px;
+    margin-top: 15px;
+}
+
+.upper{
+    display: flex;
+    width: 100%;
+    height: 52px;
+    background-color: #F5F5F6;
+    justify-content: space-around;
+}
+
+.into{
+    width: 58px;
+    height: 33px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    margin-top: 9px;
+    font-weight: 500;
+}
+
+.list-head{
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    margin: 17px 40px 0 0;
+}
+
+.mini-contanier{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.bank{
+    color: #000;
+}
+
+li button{
+    margin-right: 34px;
+    border: none;
+    color: #959BA4;
+    font-weight: 500;
+}
+
+
+.first, .second{
+    display: block;
+    border-radius: 2px;
+    margin-right: 20px;
+}
+
+.first{
+    margin-bottom: 30px;
+}
+
+.btns, .btnf{
+    width: 259px;
+    height: 30px;
+    margin-bottom: 20px;
+    border: 1px solid;
+    border-color: #E5E5E5;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inn, .out{
+    width: 65px;
+    height: 30px;
+    border: 1px solid;
+    background-color: #fff;
+    border-color: #E5E5E5;
+}
+
+.active{
+    background-color: blueviolet;
+}
+
+.resulte, input{
+    border: 1px solid;
+    width: 259px;
+    height: 102px;
+    font-size: 36px;
+    font-weight: 700;
+}
